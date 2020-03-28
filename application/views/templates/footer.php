@@ -1,0 +1,86 @@
+</div>
+<br><br><hr>
+  <!-- Footer -->
+    <div class="footer">
+      <font color="#000000">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; tokogadget 2019</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+            <a href="https://twitter.com/pratamayogi_gg" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/Insomniacs.me" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/pratamayogi.gg/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.line.com" target="_blank">
+                <i class="fab fa-line"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.whatsapp.com/" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.telegram.com/" target="_blank">
+                <i class="fab fa-telegram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <span class="copyright"></span>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </font>
+  </div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<script>
+function deleteConfirm(url){
+$('#btn-delete').attr('href', url);
+$('#deleteModal').modal();
+  }
+</script>
+<!-- jQuery -->
+<script src="assets/query/jquery.min.js"></script>
+<script src="../assets/query/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="assets/js/adminlte.min.js"></script>
+<script src="../assets/js/adminlte.min.js"></script>
+<!-- bs-custom-file-input -->
+<script src="assets/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<script src="../assets/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="assets/js/demo.js"></script>
+<script src="..assets/js/demo.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+  bsCustomFileInput.init();
+});
+</script>
+</body>
+</html>
