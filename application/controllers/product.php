@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
 
 class product extends CI_Controller{
@@ -18,4 +19,26 @@ class product extends CI_Controller{
 		$this->load->view('v_product',$data);
 		$this->load->view('templates/footer',$data);
 	}
+=======
+<?php 
+
+class product extends CI_Controller{
+ 
+	function __construct(){
+		parent::__construct();	
+		$this->load->model('m_data');
+		$this->load->helper('url');
+	
+		if($this->session->userdata('status') != "login"){
+			redirect(base_url("login"));
+		}
+	}
+ 
+	function index(){
+		$data['products'] = $this->m_data->tampil_data()->result();
+		$this->load->view('templates/header');
+		$this->load->view('product/v_product',$data);
+		$this->load->view('templates/footer');
+	}
+>>>>>>> 3549e69... codeigniter
 }

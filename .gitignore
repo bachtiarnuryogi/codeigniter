@@ -15,7 +15,10 @@ user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 /vendor/
+<<<<<<< HEAD
 project/
+=======
+>>>>>>> 3549e69... codeigniter
 
 # IDE Files
 #-------------------------

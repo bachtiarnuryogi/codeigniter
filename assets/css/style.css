@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     .footer {
    left: 0;
    bottom: 0;
@@ -7,3 +8,16 @@
    color: white;
    text-align: center;
 }
+=======
+.login {
+        padding: 1em;
+        margin: 2em auto;
+        width: 17em;
+        background: #1c1c1c;
+        border-radius: 3px;
+        box-shadow: 0px 0px 100px 4px #2e2e2e;
+      }
+.stay-open{
+	display: block !important;
+}
+>>>>>>> 3549e69... codeigniter
